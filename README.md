@@ -3,6 +3,18 @@
 Parses S-expressions to create ready-to-go
 [`behaviourtree`](https://github.com/Calamari/BehaviorTree.js) behaviour trees.
 
+# background
+
+Behaviour trees are a flexible toolset for amongst other things, video game AI.
+For an introduction to the subject, try [Tamas Jano's
+introduction](http://obviam.net/index.php/game-ai-an-introduction-to-behavior-trees/).
+
+In particular, this module allows you to specify behaviour trees as
+[S-expressions](http://en.wikipedia.org/wiki/S-expression), which are
+transformed into `BehaviorTree` objects compatible with
+[`behaviourtree`](https://github.com/Calamari/BehaviorTree.js) that are
+ready-to-go.
+
 # example
 
 ```
