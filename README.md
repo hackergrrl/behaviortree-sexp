@@ -1,3 +1,5 @@
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
 # behaviortree-sexp
 
 Parses S-expressions to create ready-to-go
@@ -97,6 +99,11 @@ This will run exactly one of `beep` or `boop`.
 
 You can register your own nodes via `btree.register(name, task)` which will then
 be available automatically in your S-expressions. See the above example.
+
+# contribute
+
+Please! File an issue or pull request. Stay consistent with the
+[`standard`](https://github.com/feross/standard).
 
 # license
 
