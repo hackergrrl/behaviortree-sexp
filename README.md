@@ -8,16 +8,16 @@ Parses S-expressions to create ready-to-go
 # background
 
 This module's purpose may not be obvious if you aren't already familiar with
-both Behaviour Trees and the existing
+both Behaviour Trees and the
 [`behaviourtree`](https://github.com/Calamari/BehaviorTree.js) module.
 
 Behaviour trees are a flexible tool for, amongst other things, video game AI.
-For an introduction to the subject, try [Tamas Jano's
+For some reading on the subject, try [Tamas Jano's
 introduction](http://obviam.net/index.php/game-ai-an-introduction-to-behavior-trees/).
 
-In particular, this module allows you to specify behaviour trees as
-[S-expressions](http://en.wikipedia.org/wiki/S-expression), which are
-transformed into `BehaviorTree` objects compatible with
+In particular, this module allows you to specify behaviour trees as ubiquitous
+[S-expressions](http://en.wikipedia.org/wiki/S-expression), which are then
+transformed into `BehaviorTree` objects fully compatible with
 [`behaviourtree`](https://github.com/Calamari/BehaviorTree.js).
 
 # example
@@ -104,7 +104,7 @@ be available automatically in your S-expressions. See the above example.
 
 # contribute
 
-Please! File an issue or pull request. Stay consistent with the
+Please do! File an issue or pull request. Stay consistent with the
 [`standard`](https://github.com/feross/standard).
 
 # license
