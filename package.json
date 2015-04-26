@@ -1,6 +1,6 @@
 {
   "name": "behaviortree-sexp",
-  "description": "A sexp-based parser for behaviortree behaviour trees.",
+  "description": "A S-expression parser for behaviortree behaviour trees.",
   "version": "0.0.1",
   "repository": {
     "type": "git",
