@@ -1,10 +1,12 @@
 {
   "name": "behaviortree-sexp",
   "description": "A sexp-based parser for behaviortree behaviour trees.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
+    "type": "git",
     "url": "git://github.com/noffle/behaviortree-sexp.git"
   },
+  "homepage": "https://github.com/noffle/behaviortree-sexp",
   "main": "index.js",
   "scripts": {
     "test": "tape test/*.js"
@@ -15,5 +17,11 @@
   },
   "devDependencies": {
     "tape": "*"
-  }
+  },
+  "author": {
+    "name": "Stephen Whitmore",
+    "email": "sww@eight45.net",
+    "url": "http://www.stephenwhitmore.com"
+  },
+  "license": "MIT"
 }
