@@ -1,7 +1,7 @@
 {
   "name": "behaviortree-sexp",
   "description": "A S-expression parser for behaviortree behaviour trees.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/noffle/behaviortree-sexp.git"
