@@ -1,0 +1,19 @@
+{
+  "name": "behaviortree-sexp",
+  "description": "A sexp-based parser for behaviortree behaviour trees.",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/noffle/behaviortree-sexp.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {
+    "behaviortree": "^1.0.3",
+    "sexp": "^0.1.5"
+  },
+  "devDependencies": {
+    "tape": "*"
+  }
+}
